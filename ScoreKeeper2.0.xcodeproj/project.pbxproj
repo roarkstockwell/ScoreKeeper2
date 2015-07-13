@@ -14,6 +14,9 @@
 		F8CF07B31B545570005B886B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CF07B21B545570005B886B /* Images.xcassets */; };
 		F8CF07B61B545570005B886B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8CF07B41B545570005B886B /* LaunchScreen.xib */; };
 		F8CF07C21B545570005B886B /* ScoreKeeper2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CF07C11B545570005B886B /* ScoreKeeper2_0Tests.m */; };
+		F8CF07CD1B545841005B886B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CF07CC1B545841005B886B /* Player.m */; };
+		F8CF07D01B5458D3005B886B /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CF07CF1B5458D3005B886B /* PlayerController.m */; };
+		F8CF07D61B546337005B886B /* PlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CF07D51B546337005B886B /* PlayerTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		F8CF07BB1B545570005B886B /* ScoreKeeper2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeper2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CF07C01B545570005B886B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8CF07C11B545570005B886B /* ScoreKeeper2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper2_0Tests.m; sourceTree = "<group>"; };
+		F8CF07CB1B545841005B886B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		F8CF07CC1B545841005B886B /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		F8CF07CE1B5458D3005B886B /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
+		F8CF07CF1B5458D3005B886B /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
+		F8CF07D41B546337005B886B /* PlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTableViewCell.h; sourceTree = "<group>"; };
+		F8CF07D51B546337005B886B /* PlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +94,13 @@
 				F8CF07AA1B545570005B886B /* AppDelegate.m */,
 				F8CF07AC1B545570005B886B /* ViewController.h */,
 				F8CF07AD1B545570005B886B /* ViewController.m */,
+				F8CF07CB1B545841005B886B /* Player.h */,
+				F8CF07CC1B545841005B886B /* Player.m */,
 				F8CF07AF1B545570005B886B /* Main.storyboard */,
+				F8CF07CE1B5458D3005B886B /* PlayerController.h */,
+				F8CF07CF1B5458D3005B886B /* PlayerController.m */,
+				F8CF07D41B546337005B886B /* PlayerTableViewCell.h */,
+				F8CF07D51B546337005B886B /* PlayerTableViewCell.m */,
 				F8CF07B21B545570005B886B /* Images.xcassets */,
 				F8CF07B41B545570005B886B /* LaunchScreen.xib */,
 				F8CF07A51B545570005B886B /* Supporting Files */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CF07CD1B545841005B886B /* Player.m in Sources */,
 				F8CF07AE1B545570005B886B /* ViewController.m in Sources */,
+				F8CF07D61B546337005B886B /* PlayerTableViewCell.m in Sources */,
 				F8CF07AB1B545570005B886B /* AppDelegate.m in Sources */,
+				F8CF07D01B5458D3005B886B /* PlayerController.m in Sources */,
 				F8CF07A81B545570005B886B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

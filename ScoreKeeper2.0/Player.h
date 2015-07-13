@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Player.h
 //  ScoreKeeper2.0
 //
 //  Created by Roark on 7/13/15.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Player.h"
 
-@interface ViewController : UIViewController
+@interface Player : NSObject
 
-@property (nonatomic) UITableView *tableView;
+@property (strong, nonatomic) NSString *name;
+@property (nonatomic) NSInteger score;
 
 @end
-

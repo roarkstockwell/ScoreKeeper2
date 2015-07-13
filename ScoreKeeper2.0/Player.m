@@ -1,17 +1,18 @@
 //
-//  ViewController.h
+//  Player.m
 //  ScoreKeeper2.0
 //
 //  Created by Roark on 7/13/15.
 //  Copyright (c) 2015 Dev Mountain. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "Player.h"
+#import "PlayerController.h"
+#import "PlayerTableViewCell.h"
 
-@interface ViewController : UIViewController
+static NSString *cellID = @"CellID";
 
-@property (nonatomic) UITableView *tableView;
+@implementation Player
+
 
 @end
-
